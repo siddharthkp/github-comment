@@ -13,10 +13,10 @@ test(async t => {
   const response = await comment(token, repo, issueId, content)
   const commentId = response.data.id
 
-  t.is(await get(token, repo, commentId), content)
+  t.is(await get(commentId), content)
 })
 
-const get = (token, repo, id) => {
+const get = id => {
   return axios({
     method: 'GET',
     url: `https://api.github.com/repos/${repo}/issues/comments/${id}`,
