@@ -1,0 +1,27 @@
+{
+  "name": "github-comment",
+  "version": "1.0.0",
+  "description": "Comment on a pull request/issue on GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharthkp/github-comment.git"
+  },
+  "keywords": [],
+  "author": "siddharthkp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siddharthkp/github-comment/issues"
+  },
+  "homepage": "https://github.com/siddharthkp/github-comment#readme",
+  "devDependencies": {
+    "ava": "0.23.0"
+  },
+  "dependencies": {
+    "axios": "0.17.0",
+    "dotenv": "4.0.0"
+  }
+}
