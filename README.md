@@ -3,7 +3,7 @@
   <br><br>
   <b>Comment on a pull request/issue on GitHub</b>
   <br><br>
-  <img src="https://travis-ci.org/siddharthkp/github-comment.svg?branch=master"/>
+  <img src="https://travis-ci.org/siddharthkp/github-comment.svg?branch=master&maxAge=3600"/>
 </p>
 
 &nbsp;
