@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/siddharthkp/github-comment#readme",
   "devDependencies": {
-    "ava": "0.23.0"
+    "ava": "5.1.0"
   },
   "dependencies": {
     "axios": "0.17.0",
